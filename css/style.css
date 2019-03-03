@@ -1,0 +1,199 @@
+﻿@font-face {
+  font-family: "Gotham Medium";
+  src: url("../fonts/Gotham%20Medium%20Regular.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Gotham Bold";
+  src: url("../fonts/gothambold1.ttf") format("ttf");
+}
+@font-face {
+  font-family: "Gotham Book";
+  src: url("../fonts/GothamBook.ttf") format("ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  font-family: "Gotham Book", Arial, sans-serif;
+  font-size: 14px;
+  color: #ffffff;
+}
+ul {
+  list-style: circle;
+}
+a {
+  width: 100%;
+  text-decoration: none;
+  color: #ffffff
+}
+
+img {
+  width: auto;
+  max-width: 100%;
+}
+header {
+  min-height: 100vh;
+  background: url("../img/bg1.jpg") 0 0 no-repeat;
+  background-size: cover ;
+
+}
+.row {
+  width: 100%;
+}
+.coll50 {
+  width: 49.9%;
+}
+.wrapper {
+  width: 1170px;
+  margin: 0 auto;
+}
+header .wrapper .header-bar {
+  display: flex;
+  justify-content: space-between;
+}
+.header-bar .logo {
+  margin-right: 218px;
+}
+.header-bar .menu {
+  padding: 72px 0 60px 0;
+  display: flex;
+  font-size: 0;
+}
+.header-bar .menu li {
+  font-size: 14px;
+  padding-right: 85px;
+}
+.header-bar .social img {
+  width: 40px;
+  height: 40px;
+  margin: 60px 0 0 21px;
+}
+header .header-mordem {
+  text-align: center;
+  padding: 250px 0 310px 0;
+}
+header .header-mordem h1{
+  text-transform: uppercase;
+  font-family: "Gotham Bold", Arial, sans-serif;
+  font-size: 80px;
+  letter-spacing: 3px;
+}
+header .header-mordem {
+  position: relative;
+}
+header .header-mordem p{
+  text-transform: uppercase;
+  font-size: 18px;
+  padding-top: 25px;
+  opacity: .7;
+  letter-spacing: 3px;
+}
+header .header-mordem a {
+  position: absolute;
+  bottom: 48px;
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+header .header-mordem a img {
+  width: auto;
+  max-width: 50%;
+  margin-top: 25%;
+}
+.gallery-tab .wrapper h1 {
+  padding: 150px 0 100px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Gotham Medium", Arial, sans-serif;
+  font-size: 44px;
+  color: #2c4058;
+}
+.gallery-tab .wrapper .gallery-photo {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 53px;
+}
+.gallery-tab .wrapper .gallery-photo .row {
+  display: flex;
+  justify-content: space-between;
+}
+.row .coll50.small {
+  width: 50%;
+}
+.gallery-tab .wrapper .gallery-photo img {
+  min-height: 100%
+}
+.gallery-tab .wrapper button {
+  margin-left: 42%;
+  background: inherit;
+  border: 2px solid #2c4058;
+  color: #2c4058;
+  font-family: "Gotham Book",Arial, sans-serif;
+  text-transform: uppercase;
+  padding: 0 60px 0 60px;
+  margin-bottom: 140px;
+  height: 50px;
+  line-height: 50px;
+}
+.latest-news {
+  background: url("../img/city%202.jpg") 0 0 no-repeat;
+  background-size: cover ;
+  padding: 180px 0 210px 0;
+}
+.latest-news .wrapper h2 {
+  padding-bottom: 100px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Gotham Medium", Arial, sans-serif;
+  font-size: 44px;
+}
+.latest-news .wrapper .slick-slider {
+  color: black;
+}
+.slick-arrow {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin: auto;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: inherit;
+}
+.slick-prev {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  top: 100px;
+  right: -50px;
+  color: inherit;
+}
+.slick-next {
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  top: 101px;
+  left: -50px;
+  color: inherit;
+}
+.slick-next:after {
+  content: '';
+  position: absolute;
+  left: 8px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-right: 10px solid #CBCBCB;
+}
+.slick-prev:after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  left: 17px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-left: 10px solid #CBCBCB;
+}
